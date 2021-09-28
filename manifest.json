@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Chess.com HTML to FEN Parser",
+    "version": "1.0",
+
+    "description": "Turns Puzzles and Live match Chess boards to FEN notation.",
+
+    "content_scripts": 
+    [
+        {
+            "matches": ["*://*.chess.com/*"],
+            "js": ["/content_script.js"]
+        }
+    ]
+
+}
